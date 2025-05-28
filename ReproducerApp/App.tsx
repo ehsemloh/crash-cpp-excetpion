@@ -129,3 +129,6 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
+setTimeout(() => {throw new Error('SWW')}, 10000);
+
